@@ -21,7 +21,7 @@ public class Message extends CommActivity
 	private String mantis_num; 
 	private String handler_name;
 	private EditText mantis_text;
-	private EditText content_text;
+	private EditText content_text; 
 	
 	@Override
 	public void onCreate(Bundle savedInstanceState)
