@@ -29,6 +29,8 @@ public class Message extends CommActivity
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.message);
 		
+		System.out.println("test commit to github");
+		
 		Intent intent_from = getIntent();
 		mantis_num = intent_from.getStringExtra("mantis_num");
 		handler_name = intent_from.getStringExtra("handler_login");
